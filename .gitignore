@@ -1,0 +1,7 @@
+/airflow
+/dags
+/logs
+/plugins
+/data
+.DS_Store
+.env
