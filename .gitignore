@@ -2,4 +2,5 @@
 /dags
 /logs
 /plugins
+/data
 .DS_Store
