@@ -4,3 +4,4 @@
 /plugins
 /data
 .DS_Store
+.env
