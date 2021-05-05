@@ -1,0 +1,1 @@
+docker cp automation-with-airflow_airflow-worker_1:opt/airflow/jokes.csv data/jokes.csv
