@@ -1,1 +1,2 @@
-docker cp automation-with-airflow_airflow-worker_1:opt/airflow/jokes.csv data/jokes.csv
+worker=$(docker ps --format "{{.Names}}" | grep worker)
+docker cp $worker:opt/airflow/jokes.csv data/jokes.csv
