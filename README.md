@@ -11,12 +11,17 @@ First run
 ```
 bash airflow-init.sh
 ```
-Then
+Wait till you see exit output that looks like this:
+
+![image](airflow-init.png)
+
+Then run
 ```
 bash airflow-up.sh
 ```
+which will bring up you Airflow docker containers.
 
-You should now be able to access you Airflow UI instance through [localhost:8080](localhost:8080).
+You should now be able to access you Airflow UI instance through [localhost:8080](localhost:8080). Log in with username and password `airflow`. 
 
 Add this [snippet of code](https://gist.github.com/chrisgschon/380f430c000a8c957c3a50756a9d3c3b) to the `dags` folder as `dag_joke_collector.py`
 
@@ -75,6 +80,8 @@ To retrieve jokes from the worker container to your local machine, run
 ```
 bash get-jokes-from-container.sh
 ```
+
+The data should be in `data/jokes.csv` - enjoy 😃
 
 ### 🧯 Fully refreshing your instance
 
