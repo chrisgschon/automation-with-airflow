@@ -67,7 +67,7 @@ with DAG(
     joke_collector_task
 ```
 
-Now, you should see the `joke collector` DAG after refreshing th UI. Click the 'unpause' button on the left. It will run automatically once due to the DAG's schedule (start date yesterday, run on one day interval).
+Now, you should see the `joke collector` DAG after refreshing the UI. Click the 'unpause' button on the left. It will run automatically once due to the DAG's schedule (start date yesterday, run on one day interval).
 
 ![image](readme-ui.png)
 
