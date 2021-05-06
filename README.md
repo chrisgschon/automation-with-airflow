@@ -1,4 +1,4 @@
-# 🧑‍🏭 🖥️ Full Stack Data Scientist Part 6: Automation with Airflow
+# 🧑‍🏭 🖥️ The Full Stack Data Scientist Part 6: Automation with Airflow
 
 A simple example of using Airflow to create a worflow for calling APIs.
 
